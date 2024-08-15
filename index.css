@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    font-style: normal;
 }
 body{
     text-align: center;
@@ -9,12 +10,22 @@ body{
     background-size: 100%;
 }
 
-.nome{
+.header{
     color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-shadow: 2px 2px #8b8b8b;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header a:hover {
+    font-size:large;
 }
 
 .p1 {
@@ -32,12 +43,35 @@ body{
 .p1 strong{
     color: #6bf5eebd;
     text-shadow: 2px 2px #036161bd;
+}
+
+#principal{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+.geleia {
+
+    border: 3px solid #036161bd;
+    min-width: 20em;
+    min-height: 20em;
+    align-items: center;
 
 }
 
-.geleia {
-    display: flex;
-    justify-content:space-around;
-    height: 360px;
+.geleia p {
+    margin-left: 10em;
+    width: 10em;
+    font-size: 2ch;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #036161bd;
+    border-radius: 10px ;
+}
+
+.geleia p:hover{
+    border: 4px solid #024e4ebd;
 }
 
